@@ -3,7 +3,6 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Cal
 import json
 import os
 
-import os
 TOKEN = os.getenv("TOKEN")
 ADMIN_ID = 7055964964
 
