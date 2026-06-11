@@ -3,7 +3,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Cal
 import json
 import os
 
-TOKEN = "8924702495:AAHVaWRN-8p-8dPrJhnPnnHvSL_b5BkGB54"
+import os
+TOKEN = os.getenv("TOKEN")
 ADMIN_ID = 7055964964
 
 DATA_FILE = "orders.json"
